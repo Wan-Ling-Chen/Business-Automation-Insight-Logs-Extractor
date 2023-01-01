@@ -1,0 +1,13 @@
+# Mandatory config
+user: elasticsearch-admin
+password: Syb2F1gZK3uB3yLgkG4x2o4Z
+host: https://iaf-system-es-cp4ba-project.apps.bailab5.cp.fyre.ibm.com
+
+# Optional config
+index-name :
+start-time : 2022-07-28T00:00:00Z
+end-time : 2022-09-28T00:00:00Z
+search-time-column : timestamp
+csv-column-mapping : 
+business-data: {'HiringManager':'HiringManager.string'}
+is_export_es_rawdata : Y

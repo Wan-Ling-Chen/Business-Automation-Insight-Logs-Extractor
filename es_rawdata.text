@@ -1,0 +1,589 @@
+{
+  "took" : 2,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 26,
+      "relation" : "eq"
+    },
+    "max_score" : 1.0,
+    "hits" : [
+      {
+        "_index" : "icp4ba-bai-process-summaries-completed-idx-ibm-bai-2022.07.28-000001",
+        "_type" : "_doc",
+        "_id" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.54.5",
+        "_score" : 1.0,
+        "_source" : {
+          "version" : "1.0.4",
+          "timestamp" : "2022-07-29T06:09:42.710+00:00",
+          "bpmCellName" : "icp4adeploy-workflow-authoring",
+          "bpmSystemId" : "056381e1-963e-462f-91df-1eb50d902e33",
+          "performerId" : "cp4badmin",
+          "performerName" : "cp4badmin",
+          "type" : "userTask",
+          "name" : "Submit position request",
+          "activityId" : "bpdid:431b0753c33842e2:3d5457c0:141a2fd3448:-75fb",
+          "activityVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "id" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.54.5",
+          "trace-id" : "7e64c8d8-a8f6-43fb-b334-d88424e29ae8",
+          "span-id" : "84d57f6246fee4d0",
+          "taskInstanceId" : "56",
+          "processApplicationId" : "9ab0d0c6-d92c-4355-9ed5-d8a05acdc4b0",
+          "processApplicationVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "processApplicationName" : "Hiring Sample",
+          "processApplicationSnapshotName" : "Responsive Hiring Sample v18001",
+          "processId" : "c904b3b1-afc1-4698-bf5a-a20892c20275",
+          "processVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "processInstanceId" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.54",
+          "shortProcessInstanceId" : "54",
+          "processSnapshotName" : "Responsive Hiring Sample v18001",
+          "processName" : "Standard HR Open New Position",
+          "state" : "Completed",
+          "taskRecord" : {
+            "displayName" : "Task: Create position request",
+            "status" : "Closed",
+            "dueDate" : "2022-07-29T07:07:26.027+00:00",
+            "atRiskTime" : "2022-07-29T07:06:31.667+00:00",
+            "completionTime" : "2022-07-29T06:09:42.614+00:00",
+            "priority" : "Normal"
+          },
+          "startTime" : "2022-07-29T06:07:25.996+00:00",
+          "claimedTime" : "2022-07-29T06:07:26.061+00:00",
+          "completedTime" : "2022-07-29T06:09:42.710+00:00",
+          "waitDuration" : 65,
+          "executionDuration" : 136649,
+          "duration" : 136714,
+          "data" : {
+            "aEmpRequisition121381434563922" : {
+              "@ids" : {
+                "trackingGroupId" : "19b73424-1bdc-4ee4-aa5a-f4ed8784d4a8",
+                "trackingGroupVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5"
+              },
+              "HiringManager.string" : "Indi Chen",
+              "EmploymentStatus.string" : "Contract",
+              "Department.string" : "Finance",
+              "Location.string" : "Chicago",
+              "GMApproval.string" : "false"
+            }
+          }
+        }
+      },
+      {
+        "_index" : "icp4ba-bai-process-summaries-completed-idx-ibm-bai-2022.07.28-000001",
+        "_type" : "_doc",
+        "_id" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.54.7",
+        "_score" : 1.0,
+        "_source" : {
+          "version" : "1.0.4",
+          "timestamp" : "2022-07-29T06:12:37.222+00:00",
+          "bpmCellName" : "icp4adeploy-workflow-authoring",
+          "bpmSystemId" : "056381e1-963e-462f-91df-1eb50d902e33",
+          "potentialPerformerId" : "GeneralManagers_S_eb30156e-52c8-4ec5-9be6-02290d02f827.481abfd8-9868-4638-ace0-7932d46958d5",
+          "potentialPerformerName" : "GeneralManagers",
+          "performerId" : "cp4badmin",
+          "performerName" : "cp4badmin",
+          "type" : "userTask",
+          "name" : "Review new position request",
+          "activityId" : "bpdid:431b0753c33842e2:3d5457c0:141a2fd3448:-75d6",
+          "activityVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "id" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.54.7",
+          "trace-id" : "7e64c8d8-a8f6-43fb-b334-d88424e29ae8",
+          "span-id" : "84d57f6246fee4d0",
+          "taskInstanceId" : "57",
+          "processApplicationId" : "9ab0d0c6-d92c-4355-9ed5-d8a05acdc4b0",
+          "processApplicationVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "processApplicationName" : "Hiring Sample",
+          "processApplicationSnapshotName" : "Responsive Hiring Sample v18001",
+          "processId" : "c904b3b1-afc1-4698-bf5a-a20892c20275",
+          "processVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "processInstanceId" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.54",
+          "shortProcessInstanceId" : "54",
+          "processSnapshotName" : "Responsive Hiring Sample v18001",
+          "processName" : "Standard HR Open New Position",
+          "state" : "Completed",
+          "taskRecord" : {
+            "displayName" : "Task: GM Approval",
+            "status" : "Closed",
+            "dueDate" : "2022-07-29T07:09:42.774+00:00",
+            "atRiskTime" : "2022-07-29T07:08:55.792+00:00",
+            "completionTime" : "2022-07-29T06:12:37.114+00:00",
+            "priority" : "Normal"
+          },
+          "startTime" : "2022-07-29T06:09:42.746+00:00",
+          "claimedTime" : "2022-07-29T06:11:55.041+00:00",
+          "completedTime" : "2022-07-29T06:12:37.222+00:00",
+          "waitDuration" : 132295,
+          "executionDuration" : 42181,
+          "duration" : 174476,
+          "data" : {
+            "aEmpRequisition121381434563922" : {
+              "@ids" : {
+                "trackingGroupId" : "19b73424-1bdc-4ee4-aa5a-f4ed8784d4a8",
+                "trackingGroupVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5"
+              },
+              "HiringManager.string" : "Indi Chen",
+              "EmploymentStatus.string" : "Contract",
+              "Department.string" : "Finance",
+              "Location.string" : "Chicago",
+              "GMApproval.string" : "true"
+            }
+          }
+        }
+      },
+      {
+        "_index" : "icp4ba-bai-process-summaries-completed-idx-ibm-bai-2022.07.28-000001",
+        "_type" : "_doc",
+        "_id" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.54",
+        "_score" : 1.0,
+        "_source" : {
+          "version" : "1.0.4",
+          "type" : "process",
+          "timestamp" : "2022-07-29T06:14:19.877+00:00",
+          "bpmCellName" : "icp4adeploy-workflow-authoring",
+          "bpmSystemId" : "056381e1-963e-462f-91df-1eb50d902e33",
+          "processApplicationSnapshotName" : "Responsive Hiring Sample v18001",
+          "processApplicationVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "processApplicationName" : "Hiring Sample",
+          "processApplicationId" : "9ab0d0c6-d92c-4355-9ed5-d8a05acdc4b0",
+          "id" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.54",
+          "trace-id" : "7e64c8d8-a8f6-43fb-b334-d88424e29ae8",
+          "span-id" : "84d57f6246fee4d0",
+          "processInstanceId" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.54",
+          "shortProcessInstanceId" : "54",
+          "processId" : "c904b3b1-afc1-4698-bf5a-a20892c20275",
+          "processVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "processSnapshotName" : "Responsive Hiring Sample v18001",
+          "name" : "Standard HR Open New Position",
+          "state" : "Completed",
+          "completedTime" : "2022-07-29T06:14:19.877+00:00",
+          "startTime" : "2022-07-29T06:07:25.947+00:00",
+          "duration" : 413930,
+          "data" : {
+            "aEmpRequisition121381434563922" : {
+              "@ids" : {
+                "trackingGroupId" : "19b73424-1bdc-4ee4-aa5a-f4ed8784d4a8",
+                "trackingGroupVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5"
+              },
+              "HiringManager.string" : "Indi Chen",
+              "EmploymentStatus.string" : "Contract",
+              "Department.string" : "Finance",
+              "Location.string" : "Chicago",
+              "GMApproval.string" : "true"
+            }
+          },
+          "lastBusinessDataUpdateTime" : "2022-07-29T06:14:19.865+00:00",
+          "lastBusinessDataUpdateActivity" : "End",
+          "lastBusinessDataUpdateEvent" : "EVENT_THROWN",
+          "lastBusinessDataUpdatePerformer" : "cp4badmin"
+        }
+      },
+      {
+        "_index" : "icp4ba-bai-process-summaries-completed-idx-ibm-bai-2022.07.28-000001",
+        "_type" : "_doc",
+        "_id" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.54.10",
+        "_score" : 1.0,
+        "_source" : {
+          "version" : "1.0.4",
+          "timestamp" : "2022-07-29T06:14:19.842+00:00",
+          "bpmCellName" : "icp4adeploy-workflow-authoring",
+          "bpmSystemId" : "056381e1-963e-462f-91df-1eb50d902e33",
+          "potentialPerformerId" : "Human Resources_S_6615a4b0-fd38-4ea5-8bc0-69d2f107369e.481abfd8-9868-4638-ace0-7932d46958d5",
+          "potentialPerformerName" : "Human Resources",
+          "performerId" : "cp4badmin",
+          "performerName" : "cp4badmin",
+          "type" : "userTask",
+          "name" : "Find position candidates",
+          "activityId" : "bpdid:431b0753c33842e2:3d5457c0:141a2fd3448:-75a9",
+          "activityVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "id" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.54.10",
+          "trace-id" : "7e64c8d8-a8f6-43fb-b334-d88424e29ae8",
+          "span-id" : "84d57f6246fee4d0",
+          "taskInstanceId" : "58",
+          "processApplicationId" : "9ab0d0c6-d92c-4355-9ed5-d8a05acdc4b0",
+          "processApplicationVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "processApplicationName" : "Hiring Sample",
+          "processApplicationSnapshotName" : "Responsive Hiring Sample v18001",
+          "processId" : "c904b3b1-afc1-4698-bf5a-a20892c20275",
+          "processVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "processInstanceId" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.54",
+          "shortProcessInstanceId" : "54",
+          "processSnapshotName" : "Responsive Hiring Sample v18001",
+          "processName" : "Standard HR Open New Position",
+          "state" : "Completed",
+          "taskRecord" : {
+            "displayName" : "Task: Find job candidates",
+            "status" : "Closed",
+            "dueDate" : "2022-07-29T07:12:37.280+00:00",
+            "atRiskTime" : "2022-07-29T06:34:46.813+00:00",
+            "completionTime" : "2022-07-29T06:14:19.721+00:00",
+            "priority" : "Normal"
+          },
+          "startTime" : "2022-07-29T06:12:37.252+00:00",
+          "claimedTime" : "2022-07-29T06:12:56.224+00:00",
+          "completedTime" : "2022-07-29T06:14:19.842+00:00",
+          "waitDuration" : 18972,
+          "executionDuration" : 83618,
+          "duration" : 102590,
+          "data" : {
+            "aEmpRequisition121381434563922" : {
+              "@ids" : {
+                "trackingGroupId" : "19b73424-1bdc-4ee4-aa5a-f4ed8784d4a8",
+                "trackingGroupVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5"
+              },
+              "HiringManager.string" : "Indi Chen",
+              "EmploymentStatus.string" : "Contract",
+              "Department.string" : "Finance",
+              "Location.string" : "Chicago",
+              "GMApproval.string" : "true"
+            }
+          }
+        }
+      },
+      {
+        "_index" : "icp4ba-bai-process-summaries-completed-idx-ibm-bai-2022.07.28-000001",
+        "_type" : "_doc",
+        "_id" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.3.5",
+        "_score" : 1.0,
+        "_source" : {
+          "version" : "1.0.4",
+          "timestamp" : "2022-07-28T11:14:27.049+00:00",
+          "bpmCellName" : "icp4adeploy-workflow-authoring",
+          "bpmSystemId" : "056381e1-963e-462f-91df-1eb50d902e33",
+          "performerId" : "cp4badmin",
+          "performerName" : "cp4badmin",
+          "type" : "userTask",
+          "name" : "Submit position request",
+          "activityId" : "bpdid:431b0753c33842e2:3d5457c0:141a2fd3448:-75fb",
+          "activityVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "id" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.3.5",
+          "trace-id" : "4ece477f-00af-4ce2-b54f-8068ff2ffe73",
+          "span-id" : "e1ed9e8be678060d",
+          "taskInstanceId" : "3",
+          "processApplicationId" : "9ab0d0c6-d92c-4355-9ed5-d8a05acdc4b0",
+          "processApplicationVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "processApplicationName" : "Hiring Sample",
+          "processApplicationSnapshotName" : "Responsive Hiring Sample v18001",
+          "processId" : "c904b3b1-afc1-4698-bf5a-a20892c20275",
+          "processVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "processInstanceId" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.3",
+          "shortProcessInstanceId" : "3",
+          "processSnapshotName" : "Responsive Hiring Sample v18001",
+          "processName" : "Standard HR Open New Position",
+          "state" : "Completed",
+          "taskRecord" : {
+            "displayName" : "Task: Create position request",
+            "status" : "Closed",
+            "dueDate" : "2022-07-28T12:13:29.047+00:00",
+            "atRiskTime" : "2022-07-28T12:07:29.055+00:00",
+            "completionTime" : "2022-07-28T11:14:26.769+00:00",
+            "priority" : "Normal"
+          },
+          "startTime" : "2022-07-28T11:13:28.947+00:00",
+          "claimedTime" : "2022-07-28T11:13:29.226+00:00",
+          "completedTime" : "2022-07-28T11:14:27.049+00:00",
+          "waitDuration" : 279,
+          "executionDuration" : 57823,
+          "duration" : 58102,
+          "data" : {
+            "aEmpRequisition121381434563922" : {
+              "@ids" : {
+                "trackingGroupId" : "19b73424-1bdc-4ee4-aa5a-f4ed8784d4a8",
+                "trackingGroupVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5"
+              },
+              "HiringManager.string" : "Tom Miller",
+              "EmploymentStatus.string" : "Full-time",
+              "Department.string" : "Sales",
+              "Location.string" : "Atlanta",
+              "GMApproval.string" : "false"
+            }
+          }
+        }
+      },
+      {
+        "_index" : "icp4ba-bai-process-summaries-completed-idx-ibm-bai-2022.07.28-000001",
+        "_type" : "_doc",
+        "_id" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.3.7",
+        "_score" : 1.0,
+        "_source" : {
+          "version" : "1.0.4",
+          "timestamp" : "2022-07-28T11:15:06.164+00:00",
+          "bpmCellName" : "icp4adeploy-workflow-authoring",
+          "bpmSystemId" : "056381e1-963e-462f-91df-1eb50d902e33",
+          "potentialPerformerId" : "GeneralManagers_S_eb30156e-52c8-4ec5-9be6-02290d02f827.481abfd8-9868-4638-ace0-7932d46958d5",
+          "potentialPerformerName" : "GeneralManagers",
+          "performerId" : "cp4badmin",
+          "performerName" : "cp4badmin",
+          "type" : "userTask",
+          "name" : "Review new position request",
+          "activityId" : "bpdid:431b0753c33842e2:3d5457c0:141a2fd3448:-75d6",
+          "activityVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "id" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.3.7",
+          "trace-id" : "4ece477f-00af-4ce2-b54f-8068ff2ffe73",
+          "span-id" : "e1ed9e8be678060d",
+          "taskInstanceId" : "4",
+          "processApplicationId" : "9ab0d0c6-d92c-4355-9ed5-d8a05acdc4b0",
+          "processApplicationVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "processApplicationName" : "Hiring Sample",
+          "processApplicationSnapshotName" : "Responsive Hiring Sample v18001",
+          "processId" : "c904b3b1-afc1-4698-bf5a-a20892c20275",
+          "processVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "processInstanceId" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.3",
+          "shortProcessInstanceId" : "3",
+          "processSnapshotName" : "Responsive Hiring Sample v18001",
+          "processName" : "Standard HR Open New Position",
+          "state" : "Completed",
+          "taskRecord" : {
+            "displayName" : "Task: GM Approval",
+            "status" : "Closed",
+            "dueDate" : "2022-07-28T12:14:27.153+00:00",
+            "atRiskTime" : "2022-07-28T12:08:27.153+00:00",
+            "completionTime" : "2022-07-28T11:15:06.004+00:00",
+            "priority" : "Normal"
+          },
+          "startTime" : "2022-07-28T11:14:27.101+00:00",
+          "claimedTime" : "2022-07-28T11:14:47.532+00:00",
+          "completedTime" : "2022-07-28T11:15:06.164+00:00",
+          "waitDuration" : 20431,
+          "executionDuration" : 18632,
+          "duration" : 39063,
+          "data" : {
+            "aEmpRequisition121381434563922" : {
+              "@ids" : {
+                "trackingGroupId" : "19b73424-1bdc-4ee4-aa5a-f4ed8784d4a8",
+                "trackingGroupVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5"
+              },
+              "HiringManager.string" : "Tom Miller",
+              "EmploymentStatus.string" : "Full-time",
+              "Department.string" : "Sales",
+              "Location.string" : "Atlanta",
+              "GMApproval.string" : "true"
+            }
+          }
+        }
+      },
+      {
+        "_index" : "icp4ba-bai-process-summaries-completed-idx-ibm-bai-2022.07.28-000001",
+        "_type" : "_doc",
+        "_id" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.3",
+        "_score" : 1.0,
+        "_source" : {
+          "version" : "1.0.4",
+          "type" : "process",
+          "timestamp" : "2022-07-28T11:15:49.527+00:00",
+          "bpmCellName" : "icp4adeploy-workflow-authoring",
+          "bpmSystemId" : "056381e1-963e-462f-91df-1eb50d902e33",
+          "processApplicationSnapshotName" : "Responsive Hiring Sample v18001",
+          "processApplicationVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "processApplicationName" : "Hiring Sample",
+          "processApplicationId" : "9ab0d0c6-d92c-4355-9ed5-d8a05acdc4b0",
+          "id" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.3",
+          "trace-id" : "4ece477f-00af-4ce2-b54f-8068ff2ffe73",
+          "span-id" : "e1ed9e8be678060d",
+          "processInstanceId" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.3",
+          "shortProcessInstanceId" : "3",
+          "processId" : "c904b3b1-afc1-4698-bf5a-a20892c20275",
+          "processVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "processSnapshotName" : "Responsive Hiring Sample v18001",
+          "name" : "Standard HR Open New Position",
+          "state" : "Completed",
+          "completedTime" : "2022-07-28T11:15:49.527+00:00",
+          "startTime" : "2022-07-28T11:13:28.695+00:00",
+          "duration" : 140832,
+          "data" : {
+            "aEmpRequisition121381434563922" : {
+              "@ids" : {
+                "trackingGroupId" : "19b73424-1bdc-4ee4-aa5a-f4ed8784d4a8",
+                "trackingGroupVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5"
+              },
+              "HiringManager.string" : "Tom Miller",
+              "EmploymentStatus.string" : "Full-time",
+              "Department.string" : "Sales",
+              "Location.string" : "Atlanta",
+              "GMApproval.string" : "true"
+            }
+          },
+          "lastBusinessDataUpdateTime" : "2022-07-28T11:15:49.503+00:00",
+          "lastBusinessDataUpdateActivity" : "End",
+          "lastBusinessDataUpdateEvent" : "EVENT_THROWN",
+          "lastBusinessDataUpdatePerformer" : "cp4badmin"
+        }
+      },
+      {
+        "_index" : "icp4ba-bai-process-summaries-completed-idx-ibm-bai-2022.07.28-000001",
+        "_type" : "_doc",
+        "_id" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.3.10",
+        "_score" : 1.0,
+        "_source" : {
+          "version" : "1.0.4",
+          "timestamp" : "2022-07-28T11:15:49.477+00:00",
+          "bpmCellName" : "icp4adeploy-workflow-authoring",
+          "bpmSystemId" : "056381e1-963e-462f-91df-1eb50d902e33",
+          "potentialPerformerId" : "Human Resources_S_6615a4b0-fd38-4ea5-8bc0-69d2f107369e.481abfd8-9868-4638-ace0-7932d46958d5",
+          "potentialPerformerName" : "Human Resources",
+          "performerId" : "cp4badmin",
+          "performerName" : "cp4badmin",
+          "type" : "userTask",
+          "name" : "Find position candidates",
+          "activityId" : "bpdid:431b0753c33842e2:3d5457c0:141a2fd3448:-75a9",
+          "activityVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "id" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.3.10",
+          "trace-id" : "4ece477f-00af-4ce2-b54f-8068ff2ffe73",
+          "span-id" : "e1ed9e8be678060d",
+          "taskInstanceId" : "5",
+          "processApplicationId" : "9ab0d0c6-d92c-4355-9ed5-d8a05acdc4b0",
+          "processApplicationVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "processApplicationName" : "Hiring Sample",
+          "processApplicationSnapshotName" : "Responsive Hiring Sample v18001",
+          "processId" : "c904b3b1-afc1-4698-bf5a-a20892c20275",
+          "processVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "processInstanceId" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.3",
+          "shortProcessInstanceId" : "3",
+          "processSnapshotName" : "Responsive Hiring Sample v18001",
+          "processName" : "Standard HR Open New Position",
+          "state" : "Completed",
+          "taskRecord" : {
+            "displayName" : "Task: Find job candidates",
+            "status" : "Closed",
+            "dueDate" : "2022-07-28T12:15:06.280+00:00",
+            "atRiskTime" : "2022-07-28T12:09:06.280+00:00",
+            "completionTime" : "2022-07-28T11:15:49.336+00:00",
+            "priority" : "Normal"
+          },
+          "startTime" : "2022-07-28T11:15:06.231+00:00",
+          "claimedTime" : "2022-07-28T11:15:25.829+00:00",
+          "completedTime" : "2022-07-28T11:15:49.477+00:00",
+          "waitDuration" : 19598,
+          "executionDuration" : 23648,
+          "duration" : 43246,
+          "data" : {
+            "aEmpRequisition121381434563922" : {
+              "@ids" : {
+                "trackingGroupId" : "19b73424-1bdc-4ee4-aa5a-f4ed8784d4a8",
+                "trackingGroupVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5"
+              },
+              "HiringManager.string" : "Tom Miller",
+              "EmploymentStatus.string" : "Full-time",
+              "Department.string" : "Sales",
+              "Location.string" : "Atlanta",
+              "GMApproval.string" : "true"
+            }
+          }
+        }
+      },
+      {
+        "_index" : "icp4ba-bai-process-summaries-completed-idx-ibm-bai-2022.07.28-000001",
+        "_type" : "_doc",
+        "_id" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.5.7",
+        "_score" : 1.0,
+        "_source" : {
+          "version" : "1.0.4",
+          "timestamp" : "2022-07-28T11:21:59.549+00:00",
+          "bpmCellName" : "icp4adeploy-workflow-authoring",
+          "bpmSystemId" : "056381e1-963e-462f-91df-1eb50d902e33",
+          "potentialPerformerId" : "GeneralManagers_S_eb30156e-52c8-4ec5-9be6-02290d02f827.481abfd8-9868-4638-ace0-7932d46958d5",
+          "potentialPerformerName" : "GeneralManagers",
+          "performerId" : "cp4badmin",
+          "performerName" : "cp4badmin",
+          "type" : "userTask",
+          "name" : "Review new position request",
+          "activityId" : "bpdid:431b0753c33842e2:3d5457c0:141a2fd3448:-75d6",
+          "activityVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "id" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.5.7",
+          "trace-id" : "f350a473-5578-4e5b-b5ff-99900287de12",
+          "span-id" : "26b9d141566b36d6",
+          "taskInstanceId" : "10",
+          "processApplicationId" : "9ab0d0c6-d92c-4355-9ed5-d8a05acdc4b0",
+          "processApplicationVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "processApplicationName" : "Hiring Sample",
+          "processApplicationSnapshotName" : "Responsive Hiring Sample v18001",
+          "processId" : "c904b3b1-afc1-4698-bf5a-a20892c20275",
+          "processVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "processInstanceId" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.5",
+          "shortProcessInstanceId" : "5",
+          "processSnapshotName" : "Responsive Hiring Sample v18001",
+          "processName" : "Standard HR Open New Position",
+          "state" : "Completed",
+          "taskRecord" : {
+            "displayName" : "Task: GM Approval",
+            "status" : "Closed",
+            "dueDate" : "2022-07-28T12:21:08.718+00:00",
+            "atRiskTime" : "2022-07-28T12:20:31.062+00:00",
+            "completionTime" : "2022-07-28T11:21:59.437+00:00",
+            "priority" : "Normal"
+          },
+          "startTime" : "2022-07-28T11:21:08.689+00:00",
+          "claimedTime" : "2022-07-28T11:21:20.401+00:00",
+          "completedTime" : "2022-07-28T11:21:59.549+00:00",
+          "waitDuration" : 11712,
+          "executionDuration" : 39148,
+          "duration" : 50860,
+          "data" : {
+            "aEmpRequisition121381434563922" : {
+              "@ids" : {
+                "trackingGroupId" : "19b73424-1bdc-4ee4-aa5a-f4ed8784d4a8",
+                "trackingGroupVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5"
+              },
+              "HiringManager.string" : "Tom Miller",
+              "EmploymentStatus.string" : "Contract",
+              "Department.string" : "Software Engineering",
+              "Location.string" : "Denver",
+              "GMApproval.string" : "false"
+            }
+          }
+        }
+      },
+      {
+        "_index" : "icp4ba-bai-process-summaries-completed-idx-ibm-bai-2022.07.28-000001",
+        "_type" : "_doc",
+        "_id" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.5.10",
+        "_score" : 1.0,
+        "_source" : {
+          "version" : "1.0.4",
+          "timestamp" : "2022-07-28T11:21:59.595+00:00",
+          "bpmCellName" : "icp4adeploy-workflow-authoring",
+          "bpmSystemId" : "056381e1-963e-462f-91df-1eb50d902e33",
+          "type" : "scriptTask",
+          "name" : "Notify hiring manager",
+          "activityId" : "bpdid:431b0753c33842e2:3d5457c0:141a2fd3448:-758c",
+          "activityVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "id" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.5.10",
+          "trace-id" : "f350a473-5578-4e5b-b5ff-99900287de12",
+          "span-id" : "26b9d141566b36d6",
+          "processApplicationId" : "9ab0d0c6-d92c-4355-9ed5-d8a05acdc4b0",
+          "processApplicationVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "processApplicationName" : "Hiring Sample",
+          "processApplicationSnapshotName" : "Responsive Hiring Sample v18001",
+          "processId" : "c904b3b1-afc1-4698-bf5a-a20892c20275",
+          "processVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5",
+          "processInstanceId" : "c904b3b1-afc1-4698-bf5a-a20892c20275.056381e1-963e-462f-91df-1eb50d902e33.5",
+          "shortProcessInstanceId" : "5",
+          "processSnapshotName" : "Responsive Hiring Sample v18001",
+          "processName" : "Standard HR Open New Position",
+          "state" : "Completed",
+          "startTime" : "2022-07-28T11:21:59.585+00:00",
+          "completedTime" : "2022-07-28T11:21:59.595+00:00",
+          "duration" : 10,
+          "data" : {
+            "aEmpRequisition121381434563922" : {
+              "@ids" : {
+                "trackingGroupId" : "19b73424-1bdc-4ee4-aa5a-f4ed8784d4a8",
+                "trackingGroupVersionId" : "2064.481abfd8-9868-4638-ace0-7932d46958d5"
+              },
+              "HiringManager.string" : "Tom Miller",
+              "EmploymentStatus.string" : "Contract",
+              "Department.string" : "Software Engineering",
+              "Location.string" : "Denver",
+              "GMApproval.string" : "false"
+            }
+          }
+        }
+      }
+    ]
+  }
+}
