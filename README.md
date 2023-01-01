@@ -1,5 +1,5 @@
 
-# BAI Extraction Utility ＆ ProcessMining Demo
+# Business Automation Insight (BAI) Extraction Utility ＆ ProcessMining Demo
 A simple utility to extract Business Automation Insight (BAI) instance data (from Elasticsearch) and export it as a CSV.
 
 
@@ -9,9 +9,10 @@ If we already have Business Automation Workflow (BAW), a BPMS, we want to do hea
 When we use BAW, Business Automation Insight(BAI) acts as its monitor and real-time dashboard.
 The mechanism behind BAI is that every transaction or operation generated in BAW will be recorded as event logs and automatically collected in Elasticsearch.
 
-What is Process Mining? A tool applies data science to discover, validate and improve workflows. 
+What is Process Mining? <br />
+A tool applies data science to discover, validate and improve workflows. 
 In other words, Process Mining can visualize the current status of processes and identify bottlenecks.
-The below demo video will introduce more details of Process Mining.
+The below demo video introduces more details of Process Mining.
 
 ## Pre-Requirement
 Just a recent version of python3. <br />
